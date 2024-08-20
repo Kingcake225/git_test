@@ -30,3 +30,8 @@ class IrishPerson(Person): #Creates a class which inherits from our parent Perso
 
 Sean = IrishPerson('Sean', '069420', 25, 'Fermanagh')
 Sean.get_info()
+
+# Polymorphism Example
+# Polymorphism is the ability to get a different response despite same class so...
+print(p1.get_info())
+print(Sean.get_info()) # This is polymorphism
